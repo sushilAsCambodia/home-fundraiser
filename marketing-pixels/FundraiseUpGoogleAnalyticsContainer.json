@@ -9,7 +9,7 @@
       "path": "accounts/0000000000/containers/00000000",
       "accountId": "0000000000",
       "containerId": "00000000",
-      "name": "Fundraise Up Google Analytics Container",
+      "name": "Getmoredonations Google Analytics Container",
       "publicId": "GTM-XXXXXXX",
       "usageContext": ["WEB"],
       "fingerprint": "0000000000000",
@@ -20,7 +20,7 @@
         "accountId": "0000000000",
         "containerId": "00000000",
         "tagId": "1",
-        "name": "Fundraise Up Checkout Open",
+        "name": "Getmoredonations Checkout Open",
         "type": "gaawe",
         "parameter": [
           {
@@ -43,7 +43,7 @@
                   {
                     "type": "TEMPLATE",
                     "key": "value",
-                    "value": "{{Fundraise Up Supporter ID}}"
+                    "value": "{{Getmoredonations Supporter ID}}"
                   }
                 ]
               }
@@ -52,7 +52,7 @@
           {
             "type": "TEMPLATE",
             "key": "eventName",
-            "value": "Fundraise Up Checkout Open"
+            "value": "Getmoredonations Checkout Open"
           },
           {
             "type": "LIST",
@@ -69,7 +69,7 @@
                   {
                     "type": "TEMPLATE",
                     "key": "value",
-                    "value": "{{Fundraise Up Campaign ID}}"
+                    "value": "{{Getmoredonations Campaign ID}}"
                   }
                 ]
               },
@@ -84,7 +84,7 @@
                   {
                     "type": "TEMPLATE",
                     "key": "value",
-                    "value": "{{Fundraise Up Campaign Code}}"
+                    "value": "{{Getmoredonations Campaign Code}}"
                   }
                 ]
               },
@@ -99,7 +99,7 @@
                   {
                     "type": "TEMPLATE",
                     "key": "value",
-                    "value": "{{Fundraise Up Campaign Name}}"
+                    "value": "{{Getmoredonations Campaign Name}}"
                   }
                 ]
               },
@@ -114,7 +114,7 @@
                   {
                     "type": "TEMPLATE",
                     "key": "value",
-                    "value": "{{Fundraise Up Donation ID}}"
+                    "value": "{{Getmoredonations Donation ID}}"
                   }
                 ]
               },
@@ -129,7 +129,7 @@
                   {
                     "type": "TEMPLATE",
                     "key": "value",
-                    "value": "{{Fundraise Up Donation Amount}}"
+                    "value": "{{Getmoredonations Donation Amount}}"
                   }
                 ]
               },
@@ -144,7 +144,7 @@
                   {
                     "type": "TEMPLATE",
                     "key": "value",
-                    "value": "{{Fundraise Up Donation Are Fees Covered}}"
+                    "value": "{{Getmoredonations Donation Are Fees Covered}}"
                   }
                 ]
               },
@@ -159,7 +159,7 @@
                   {
                     "type": "TEMPLATE",
                     "key": "value",
-                    "value": "{{Fundraise Up Donation Currency}}"
+                    "value": "{{Getmoredonations Donation Currency}}"
                   }
                 ]
               },
@@ -174,7 +174,7 @@
                   {
                     "type": "TEMPLATE",
                     "key": "value",
-                    "value": "{{Fundraise Up Donation Is Recurring}}"
+                    "value": "{{Getmoredonations Donation Is Recurring}}"
                   }
                 ]
               },
@@ -189,7 +189,7 @@
                   {
                     "type": "TEMPLATE",
                     "key": "value",
-                    "value": "{{Fundraise Up Donation Payment Method}}"
+                    "value": "{{Getmoredonations Donation Payment Method}}"
                   }
                 ]
               },
@@ -204,7 +204,7 @@
                   {
                     "type": "TEMPLATE",
                     "key": "value",
-                    "value": "{{Fundraise Up Donation Frequency}}"
+                    "value": "{{Getmoredonations Donation Frequency}}"
                   }
                 ]
               },
@@ -219,7 +219,7 @@
                   {
                     "type": "TEMPLATE",
                     "key": "value",
-                    "value": "{{Fundraise Up Designation ID}}"
+                    "value": "{{Getmoredonations Designation ID}}"
                   }
                 ]
               },
@@ -234,7 +234,7 @@
                   {
                     "type": "TEMPLATE",
                     "key": "value",
-                    "value": "{{Fundraise Up Designation Code}}"
+                    "value": "{{Getmoredonations Designation Code}}"
                   }
                 ]
               },
@@ -249,7 +249,7 @@
                   {
                     "type": "TEMPLATE",
                     "key": "value",
-                    "value": "{{Fundraise Up Designation Name}}"
+                    "value": "{{Getmoredonations Designation Name}}"
                   }
                 ]
               },
@@ -264,7 +264,7 @@
                   {
                     "type": "TEMPLATE",
                     "key": "value",
-                    "value": "{{Fundraise Up Tribute Type}}"
+                    "value": "{{Getmoredonations Tribute Type}}"
                   }
                 ]
               },
@@ -279,7 +279,7 @@
                   {
                     "type": "TEMPLATE",
                     "key": "value",
-                    "value": "{{Fundraise Up Supporter Is Mailing List Subscribed}}"
+                    "value": "{{Getmoredonations Supporter Is Mailing List Subscribed}}"
                   }
                 ]
               },
@@ -294,7 +294,7 @@
                   {
                     "type": "TEMPLATE",
                     "key": "value",
-                    "value": "{{Fundraise Up Supporter Is Anonymous}}"
+                    "value": "{{Getmoredonations Supporter Is Anonymous}}"
                   }
                 ]
               },
@@ -309,7 +309,7 @@
                   {
                     "type": "TEMPLATE",
                     "key": "value",
-                    "value": "{{Fundraise Up Supporter Employer}}"
+                    "value": "{{Getmoredonations Supporter Employer}}"
                   }
                 ]
               },
@@ -324,7 +324,7 @@
                   {
                     "type": "TEMPLATE",
                     "key": "value",
-                    "value": "{{Fundraise Up Supporter On Behalf Of}}"
+                    "value": "{{Getmoredonations Supporter On Behalf Of}}"
                   }
                 ]
               },
@@ -339,7 +339,7 @@
                   {
                     "type": "TEMPLATE",
                     "key": "value",
-                    "value": "{{Fundraise Up Is Livemode}}"
+                    "value": "{{Getmoredonations Is Livemode}}"
                   }
                 ]
               },
@@ -354,7 +354,7 @@
                   {
                     "type": "TEMPLATE",
                     "key": "value",
-                    "value": "{{Fundraise Up Element ID}}"
+                    "value": "{{Getmoredonations Element ID}}"
                   }
                 ]
               },
@@ -369,7 +369,7 @@
                   {
                     "type": "TEMPLATE",
                     "key": "value",
-                    "value": "{{Fundraise Up Element Name}}"
+                    "value": "{{Getmoredonations Element Name}}"
                   }
                 ]
               },
@@ -384,7 +384,7 @@
                   {
                     "type": "TEMPLATE",
                     "key": "value",
-                    "value": "{{Fundraise Up Element Type}}"
+                    "value": "{{Getmoredonations Element Type}}"
                   }
                 ]
               }
@@ -393,7 +393,7 @@
           {
             "type": "TAG_REFERENCE",
             "key": "measurementId",
-            "value": "Fundraise Up GA4 Configuration"
+            "value": "Getmoredonations GA4 Configuration"
           }
         ],
         "fingerprint": "0000000000000",
@@ -411,7 +411,7 @@
         "accountId": "0000000000",
         "containerId": "00000000",
         "tagId": "2",
-        "name": "Fundraise Up Checkout Close",
+        "name": "Getmoredonations Checkout Close",
         "type": "gaawe",
         "parameter": [
           {
@@ -434,7 +434,7 @@
                   {
                     "type": "TEMPLATE",
                     "key": "value",
-                    "value": "{{Fundraise Up Supporter ID}}"
+                    "value": "{{Getmoredonations Supporter ID}}"
                   }
                 ]
               }
@@ -443,7 +443,7 @@
           {
             "type": "TEMPLATE",
             "key": "eventName",
-            "value": "Fundraise Up Checkout Close"
+            "value": "Getmoredonations Checkout Close"
           },
           {
             "type": "LIST",
@@ -460,7 +460,7 @@
                   {
                     "type": "TEMPLATE",
                     "key": "value",
-                    "value": "{{Fundraise Up Campaign ID}}"
+                    "value": "{{Getmoredonations Campaign ID}}"
                   }
                 ]
               },
@@ -475,7 +475,7 @@
                   {
                     "type": "TEMPLATE",
                     "key": "value",
-                    "value": "{{Fundraise Up Campaign Code}}"
+                    "value": "{{Getmoredonations Campaign Code}}"
                   }
                 ]
               },
@@ -490,7 +490,7 @@
                   {
                     "type": "TEMPLATE",
                     "key": "value",
-                    "value": "{{Fundraise Up Campaign Name}}"
+                    "value": "{{Getmoredonations Campaign Name}}"
                   }
                 ]
               },
@@ -505,7 +505,7 @@
                   {
                     "type": "TEMPLATE",
                     "key": "value",
-                    "value": "{{Fundraise Up Donation ID}}"
+                    "value": "{{Getmoredonations Donation ID}}"
                   }
                 ]
               },
@@ -520,7 +520,7 @@
                   {
                     "type": "TEMPLATE",
                     "key": "value",
-                    "value": "{{Fundraise Up Donation Amount}}"
+                    "value": "{{Getmoredonations Donation Amount}}"
                   }
                 ]
               },
@@ -535,7 +535,7 @@
                   {
                     "type": "TEMPLATE",
                     "key": "value",
-                    "value": "{{Fundraise Up Donation Are Fees Covered}}"
+                    "value": "{{Getmoredonations Donation Are Fees Covered}}"
                   }
                 ]
               },
@@ -550,7 +550,7 @@
                   {
                     "type": "TEMPLATE",
                     "key": "value",
-                    "value": "{{Fundraise Up Donation Currency}}"
+                    "value": "{{Getmoredonations Donation Currency}}"
                   }
                 ]
               },
@@ -565,7 +565,7 @@
                   {
                     "type": "TEMPLATE",
                     "key": "value",
-                    "value": "{{Fundraise Up Donation Is Recurring}}"
+                    "value": "{{Getmoredonations Donation Is Recurring}}"
                   }
                 ]
               },
@@ -580,7 +580,7 @@
                   {
                     "type": "TEMPLATE",
                     "key": "value",
-                    "value": "{{Fundraise Up Donation Payment Method}}"
+                    "value": "{{Getmoredonations Donation Payment Method}}"
                   }
                 ]
               },
@@ -595,7 +595,7 @@
                   {
                     "type": "TEMPLATE",
                     "key": "value",
-                    "value": "{{Fundraise Up Donation Frequency}}"
+                    "value": "{{Getmoredonations Donation Frequency}}"
                   }
                 ]
               },
@@ -610,7 +610,7 @@
                   {
                     "type": "TEMPLATE",
                     "key": "value",
-                    "value": "{{Fundraise Up Designation ID}}"
+                    "value": "{{Getmoredonations Designation ID}}"
                   }
                 ]
               },
@@ -625,7 +625,7 @@
                   {
                     "type": "TEMPLATE",
                     "key": "value",
-                    "value": "{{Fundraise Up Designation Code}}"
+                    "value": "{{Getmoredonations Designation Code}}"
                   }
                 ]
               },
@@ -640,7 +640,7 @@
                   {
                     "type": "TEMPLATE",
                     "key": "value",
-                    "value": "{{Fundraise Up Designation Name}}"
+                    "value": "{{Getmoredonations Designation Name}}"
                   }
                 ]
               },
@@ -655,7 +655,7 @@
                   {
                     "type": "TEMPLATE",
                     "key": "value",
-                    "value": "{{Fundraise Up Tribute Type}}"
+                    "value": "{{Getmoredonations Tribute Type}}"
                   }
                 ]
               },
@@ -670,7 +670,7 @@
                   {
                     "type": "TEMPLATE",
                     "key": "value",
-                    "value": "{{Fundraise Up Supporter Is Mailing List Subscribed}}"
+                    "value": "{{Getmoredonations Supporter Is Mailing List Subscribed}}"
                   }
                 ]
               },
@@ -685,7 +685,7 @@
                   {
                     "type": "TEMPLATE",
                     "key": "value",
-                    "value": "{{Fundraise Up Supporter Is Anonymous}}"
+                    "value": "{{Getmoredonations Supporter Is Anonymous}}"
                   }
                 ]
               },
@@ -700,7 +700,7 @@
                   {
                     "type": "TEMPLATE",
                     "key": "value",
-                    "value": "{{Fundraise Up Supporter Employer}}"
+                    "value": "{{Getmoredonations Supporter Employer}}"
                   }
                 ]
               },
@@ -715,7 +715,7 @@
                   {
                     "type": "TEMPLATE",
                     "key": "value",
-                    "value": "{{Fundraise Up Supporter On Behalf Of}}"
+                    "value": "{{Getmoredonations Supporter On Behalf Of}}"
                   }
                 ]
               },
@@ -730,7 +730,7 @@
                   {
                     "type": "TEMPLATE",
                     "key": "value",
-                    "value": "{{Fundraise Up Is Livemode}}"
+                    "value": "{{Getmoredonations Is Livemode}}"
                   }
                 ]
               },
@@ -745,7 +745,7 @@
                   {
                     "type": "TEMPLATE",
                     "key": "value",
-                    "value": "{{Fundraise Up Element ID}}"
+                    "value": "{{Getmoredonations Element ID}}"
                   }
                 ]
               },
@@ -760,7 +760,7 @@
                   {
                     "type": "TEMPLATE",
                     "key": "value",
-                    "value": "{{Fundraise Up Element Name}}"
+                    "value": "{{Getmoredonations Element Name}}"
                   }
                 ]
               },
@@ -775,7 +775,7 @@
                   {
                     "type": "TEMPLATE",
                     "key": "value",
-                    "value": "{{Fundraise Up Element Type}}"
+                    "value": "{{Getmoredonations Element Type}}"
                   }
                 ]
               }
@@ -784,7 +784,7 @@
           {
             "type": "TAG_REFERENCE",
             "key": "measurementId",
-            "value": "Fundraise Up GA4 Configuration"
+            "value": "Getmoredonations GA4 Configuration"
           }
         ],
         "fingerprint": "0000000000000",
@@ -802,7 +802,7 @@
         "accountId": "0000000000",
         "containerId": "00000000",
         "tagId": "3",
-        "name": "Fundraise Up Donation",
+        "name": "Getmoredonations Donation",
         "type": "gaawe",
         "parameter": [
           {
@@ -825,7 +825,7 @@
                   {
                     "type": "TEMPLATE",
                     "key": "value",
-                    "value": "{{Fundraise Up Supporter ID}}"
+                    "value": "{{Getmoredonations Supporter ID}}"
                   }
                 ]
               }
@@ -856,7 +856,7 @@
                   {
                     "type": "TEMPLATE",
                     "key": "value",
-                    "value": "{{Fundraise Up Campaign ID}}"
+                    "value": "{{Getmoredonations Campaign ID}}"
                   }
                 ]
               },
@@ -871,7 +871,7 @@
                   {
                     "type": "TEMPLATE",
                     "key": "value",
-                    "value": "{{Fundraise Up Campaign Code}}"
+                    "value": "{{Getmoredonations Campaign Code}}"
                   }
                 ]
               },
@@ -886,7 +886,7 @@
                   {
                     "type": "TEMPLATE",
                     "key": "value",
-                    "value": "{{Fundraise Up Campaign Name}}"
+                    "value": "{{Getmoredonations Campaign Name}}"
                   }
                 ]
               },
@@ -901,7 +901,7 @@
                   {
                     "type": "TEMPLATE",
                     "key": "value",
-                    "value": "{{Fundraise Up Donation ID}}"
+                    "value": "{{Getmoredonations Donation ID}}"
                   }
                 ]
               },
@@ -916,7 +916,7 @@
                   {
                     "type": "TEMPLATE",
                     "key": "value",
-                    "value": "{{Fundraise Up Donation Amount}}"
+                    "value": "{{Getmoredonations Donation Amount}}"
                   }
                 ]
               },
@@ -931,7 +931,7 @@
                   {
                     "type": "TEMPLATE",
                     "key": "value",
-                    "value": "{{Fundraise Up Donation Are Fees Covered}}"
+                    "value": "{{Getmoredonations Donation Are Fees Covered}}"
                   }
                 ]
               },
@@ -946,7 +946,7 @@
                   {
                     "type": "TEMPLATE",
                     "key": "value",
-                    "value": "{{Fundraise Up Donation Currency}}"
+                    "value": "{{Getmoredonations Donation Currency}}"
                   }
                 ]
               },
@@ -961,7 +961,7 @@
                   {
                     "type": "TEMPLATE",
                     "key": "value",
-                    "value": "{{Fundraise Up Donation Is Recurring}}"
+                    "value": "{{Getmoredonations Donation Is Recurring}}"
                   }
                 ]
               },
@@ -976,7 +976,7 @@
                   {
                     "type": "TEMPLATE",
                     "key": "value",
-                    "value": "{{Fundraise Up Donation Payment Method}}"
+                    "value": "{{Getmoredonations Donation Payment Method}}"
                   }
                 ]
               },
@@ -991,7 +991,7 @@
                   {
                     "type": "TEMPLATE",
                     "key": "value",
-                    "value": "{{Fundraise Up Donation Frequency}}"
+                    "value": "{{Getmoredonations Donation Frequency}}"
                   }
                 ]
               },
@@ -1006,7 +1006,7 @@
                   {
                     "type": "TEMPLATE",
                     "key": "value",
-                    "value": "{{Fundraise Up Designation ID}}"
+                    "value": "{{Getmoredonations Designation ID}}"
                   }
                 ]
               },
@@ -1021,7 +1021,7 @@
                   {
                     "type": "TEMPLATE",
                     "key": "value",
-                    "value": "{{Fundraise Up Designation Code}}"
+                    "value": "{{Getmoredonations Designation Code}}"
                   }
                 ]
               },
@@ -1036,7 +1036,7 @@
                   {
                     "type": "TEMPLATE",
                     "key": "value",
-                    "value": "{{Fundraise Up Designation Name}}"
+                    "value": "{{Getmoredonations Designation Name}}"
                   }
                 ]
               },
@@ -1051,7 +1051,7 @@
                   {
                     "type": "TEMPLATE",
                     "key": "value",
-                    "value": "{{Fundraise Up Tribute Type}}"
+                    "value": "{{Getmoredonations Tribute Type}}"
                   }
                 ]
               },
@@ -1066,7 +1066,7 @@
                   {
                     "type": "TEMPLATE",
                     "key": "value",
-                    "value": "{{Fundraise Up Supporter Is Mailing List Subscribed}}"
+                    "value": "{{Getmoredonations Supporter Is Mailing List Subscribed}}"
                   }
                 ]
               },
@@ -1081,7 +1081,7 @@
                   {
                     "type": "TEMPLATE",
                     "key": "value",
-                    "value": "{{Fundraise Up Supporter Is Anonymous}}"
+                    "value": "{{Getmoredonations Supporter Is Anonymous}}"
                   }
                 ]
               },
@@ -1096,7 +1096,7 @@
                   {
                     "type": "TEMPLATE",
                     "key": "value",
-                    "value": "{{Fundraise Up Supporter Employer}}"
+                    "value": "{{Getmoredonations Supporter Employer}}"
                   }
                 ]
               },
@@ -1111,7 +1111,7 @@
                   {
                     "type": "TEMPLATE",
                     "key": "value",
-                    "value": "{{Fundraise Up Supporter On Behalf Of}}"
+                    "value": "{{Getmoredonations Supporter On Behalf Of}}"
                   }
                 ]
               },
@@ -1126,7 +1126,7 @@
                   {
                     "type": "TEMPLATE",
                     "key": "value",
-                    "value": "{{Fundraise Up Is Livemode}}"
+                    "value": "{{Getmoredonations Is Livemode}}"
                   }
                 ]
               },
@@ -1141,7 +1141,7 @@
                   {
                     "type": "TEMPLATE",
                     "key": "value",
-                    "value": "{{Fundraise Up Element ID}}"
+                    "value": "{{Getmoredonations Element ID}}"
                   }
                 ]
               },
@@ -1156,7 +1156,7 @@
                   {
                     "type": "TEMPLATE",
                     "key": "value",
-                    "value": "{{Fundraise Up Element Name}}"
+                    "value": "{{Getmoredonations Element Name}}"
                   }
                 ]
               },
@@ -1171,7 +1171,7 @@
                   {
                     "type": "TEMPLATE",
                     "key": "value",
-                    "value": "{{Fundraise Up Element Type}}"
+                    "value": "{{Getmoredonations Element Type}}"
                   }
                 ]
               }
@@ -1180,7 +1180,7 @@
           {
             "type": "TAG_REFERENCE",
             "key": "measurementId",
-            "value": "Fundraise Up GA4 Configuration"
+            "value": "Getmoredonations GA4 Configuration"
           }
         ],
         "fingerprint": "0000000000000",
@@ -1198,7 +1198,7 @@
         "accountId": "0000000000",
         "containerId": "00000000",
         "tagId": "4",
-        "name": "Fundraise Up GA4 Configuration",
+        "name": "Getmoredonations GA4 Configuration",
         "type": "gaawc",
         "parameter": [
           {
@@ -1234,7 +1234,7 @@
         "accountId": "0000000000",
         "containerId": "00000000",
         "triggerId": "1",
-        "name": "Fundraise Up Donation Complete",
+        "name": "Getmoredonations Donation Complete",
         "type": "CUSTOM_EVENT",
         "customEventFilter": [
           {
@@ -1248,7 +1248,7 @@
               {
                 "type": "TEMPLATE",
                 "key": "arg1",
-                "value": "FundraiseUp.donationComplete"
+                "value": "Getmoredonations.donationComplete"
               }
             ]
           }
@@ -1260,7 +1260,7 @@
         "accountId": "0000000000",
         "containerId": "00000000",
         "triggerId": "2",
-        "name": "Fundraise Up Checkout Close",
+        "name": "Getmoredonations Checkout Close",
         "type": "CUSTOM_EVENT",
         "customEventFilter": [
           {
@@ -1274,7 +1274,7 @@
               {
                 "type": "TEMPLATE",
                 "key": "arg1",
-                "value": "FundraiseUp.checkoutClose"
+                "value": "Getmoredonations.checkoutClose"
               }
             ]
           }
@@ -1286,7 +1286,7 @@
         "accountId": "0000000000",
         "containerId": "00000000",
         "triggerId": "3",
-        "name": "Fundraise Up Checkout Open",
+        "name": "Getmoredonations Checkout Open",
         "type": "CUSTOM_EVENT",
         "customEventFilter": [
           {
@@ -1300,7 +1300,7 @@
               {
                 "type": "TEMPLATE",
                 "key": "arg1",
-                "value": "FundraiseUp.checkoutOpen"
+                "value": "Getmoredonations.checkoutOpen"
               }
             ]
           }
@@ -1314,7 +1314,7 @@
         "accountId": "0000000000",
         "containerId": "00000000",
         "variableId": 1,
-        "name": "Fundraise Up Campaign ID",
+        "name": "Getmoredonations Campaign ID",
         "type": "v",
         "parameter": [
           {
@@ -1330,7 +1330,7 @@
           {
             "type": "TEMPLATE",
             "key": "name",
-            "value": "FundraiseUp.campaign.id"
+            "value": "Getmoredonations.campaign.id"
           }
         ],
         "fingerprint": "0000000000000",
@@ -1341,7 +1341,7 @@
         "accountId": "0000000000",
         "containerId": "00000000",
         "variableId": 2,
-        "name": "Fundraise Up Campaign Code",
+        "name": "Getmoredonations Campaign Code",
         "type": "v",
         "parameter": [
           {
@@ -1357,7 +1357,7 @@
           {
             "type": "TEMPLATE",
             "key": "name",
-            "value": "FundraiseUp.campaign.code"
+            "value": "Getmoredonations.campaign.code"
           }
         ],
         "fingerprint": "0000000000000",
@@ -1368,7 +1368,7 @@
         "accountId": "0000000000",
         "containerId": "00000000",
         "variableId": 3,
-        "name": "Fundraise Up Campaign Name",
+        "name": "Getmoredonations Campaign Name",
         "type": "v",
         "parameter": [
           {
@@ -1384,7 +1384,7 @@
           {
             "type": "TEMPLATE",
             "key": "name",
-            "value": "FundraiseUp.campaign.name"
+            "value": "Getmoredonations.campaign.name"
           }
         ],
         "fingerprint": "0000000000000",
@@ -1395,7 +1395,7 @@
         "accountId": "0000000000",
         "containerId": "00000000",
         "variableId": 4,
-        "name": "Fundraise Up Donation ID",
+        "name": "Getmoredonations Donation ID",
         "type": "v",
         "parameter": [
           {
@@ -1411,7 +1411,7 @@
           {
             "type": "TEMPLATE",
             "key": "name",
-            "value": "FundraiseUp.donation.id"
+            "value": "Getmoredonations.donation.id"
           }
         ],
         "fingerprint": "0000000000000",
@@ -1422,7 +1422,7 @@
         "accountId": "0000000000",
         "containerId": "00000000",
         "variableId": 5,
-        "name": "Fundraise Up Donation Amount",
+        "name": "Getmoredonations Donation Amount",
         "type": "v",
         "parameter": [
           {
@@ -1438,7 +1438,7 @@
           {
             "type": "TEMPLATE",
             "key": "name",
-            "value": "FundraiseUp.donation.amount"
+            "value": "Getmoredonations.donation.amount"
           }
         ],
         "fingerprint": "0000000000000",
@@ -1449,7 +1449,7 @@
         "accountId": "0000000000",
         "containerId": "00000000",
         "variableId": 6,
-        "name": "Fundraise Up Donation Are Fees Covered",
+        "name": "Getmoredonations Donation Are Fees Covered",
         "type": "v",
         "parameter": [
           {
@@ -1465,7 +1465,7 @@
           {
             "type": "TEMPLATE",
             "key": "name",
-            "value": "FundraiseUp.donation.feesCovered"
+            "value": "Getmoredonations.donation.feesCovered"
           }
         ],
         "fingerprint": "0000000000000",
@@ -1476,7 +1476,7 @@
         "accountId": "0000000000",
         "containerId": "00000000",
         "variableId": 7,
-        "name": "Fundraise Up Donation Currency",
+        "name": "Getmoredonations Donation Currency",
         "type": "v",
         "parameter": [
           {
@@ -1492,7 +1492,7 @@
           {
             "type": "TEMPLATE",
             "key": "name",
-            "value": "FundraiseUp.donation.currency"
+            "value": "Getmoredonations.donation.currency"
           }
         ],
         "fingerprint": "0000000000000",
@@ -1503,7 +1503,7 @@
         "accountId": "0000000000",
         "containerId": "00000000",
         "variableId": 8,
-        "name": "Fundraise Up Donation Is Recurring",
+        "name": "Getmoredonations Donation Is Recurring",
         "type": "v",
         "parameter": [
           {
@@ -1519,7 +1519,7 @@
           {
             "type": "TEMPLATE",
             "key": "name",
-            "value": "FundraiseUp.donation.recurring"
+            "value": "Getmoredonations.donation.recurring"
           }
         ],
         "fingerprint": "0000000000000",
@@ -1530,7 +1530,7 @@
         "accountId": "0000000000",
         "containerId": "00000000",
         "variableId": 9,
-        "name": "Fundraise Up Donation Payment Method",
+        "name": "Getmoredonations Donation Payment Method",
         "type": "v",
         "parameter": [
           {
@@ -1546,7 +1546,7 @@
           {
             "type": "TEMPLATE",
             "key": "name",
-            "value": "FundraiseUp.donation.paymentMethod"
+            "value": "Getmoredonations.donation.paymentMethod"
           }
         ],
         "fingerprint": "0000000000000",
@@ -1557,7 +1557,7 @@
         "accountId": "0000000000",
         "containerId": "00000000",
         "variableId": 10,
-        "name": "Fundraise Up Donation Frequency",
+        "name": "Getmoredonations Donation Frequency",
         "type": "v",
         "parameter": [
           {
@@ -1573,7 +1573,7 @@
           {
             "type": "TEMPLATE",
             "key": "name",
-            "value": "FundraiseUp.donation.frequency"
+            "value": "Getmoredonations.donation.frequency"
           }
         ],
         "fingerprint": "0000000000000",
@@ -1584,7 +1584,7 @@
         "accountId": "0000000000",
         "containerId": "00000000",
         "variableId": 11,
-        "name": "Fundraise Up Designation ID",
+        "name": "Getmoredonations Designation ID",
         "type": "v",
         "parameter": [
           {
@@ -1600,7 +1600,7 @@
           {
             "type": "TEMPLATE",
             "key": "name",
-            "value": "FundraiseUp.designation.id"
+            "value": "Getmoredonations.designation.id"
           }
         ],
         "fingerprint": "0000000000000",
@@ -1611,7 +1611,7 @@
         "accountId": "0000000000",
         "containerId": "00000000",
         "variableId": 12,
-        "name": "Fundraise Up Designation Code",
+        "name": "Getmoredonations Designation Code",
         "type": "v",
         "parameter": [
           {
@@ -1627,7 +1627,7 @@
           {
             "type": "TEMPLATE",
             "key": "name",
-            "value": "FundraiseUp.designation.code"
+            "value": "Getmoredonations.designation.code"
           }
         ],
         "fingerprint": "0000000000000",
@@ -1638,7 +1638,7 @@
         "accountId": "0000000000",
         "containerId": "00000000",
         "variableId": 13,
-        "name": "Fundraise Up Designation Name",
+        "name": "Getmoredonations Designation Name",
         "type": "v",
         "parameter": [
           {
@@ -1654,7 +1654,7 @@
           {
             "type": "TEMPLATE",
             "key": "name",
-            "value": "FundraiseUp.designation.name"
+            "value": "Getmoredonations.designation.name"
           }
         ],
         "fingerprint": "0000000000000",
@@ -1665,7 +1665,7 @@
         "accountId": "0000000000",
         "containerId": "00000000",
         "variableId": 14,
-        "name": "Fundraise Up Tribute Type",
+        "name": "Getmoredonations Tribute Type",
         "type": "v",
         "parameter": [
           {
@@ -1681,7 +1681,7 @@
           {
             "type": "TEMPLATE",
             "key": "name",
-            "value": "FundraiseUp.tribute.type"
+            "value": "Getmoredonations.tribute.type"
           }
         ],
         "fingerprint": "0000000000000",
@@ -1692,7 +1692,7 @@
         "accountId": "0000000000",
         "containerId": "00000000",
         "variableId": 15,
-        "name": "Fundraise Up Supporter ID",
+        "name": "Getmoredonations Supporter ID",
         "type": "v",
         "parameter": [
           {
@@ -1708,7 +1708,7 @@
           {
             "type": "TEMPLATE",
             "key": "name",
-            "value": "FundraiseUp.supporter.id"
+            "value": "Getmoredonations.supporter.id"
           }
         ],
         "fingerprint": "0000000000000",
@@ -1719,7 +1719,7 @@
         "accountId": "0000000000",
         "containerId": "00000000",
         "variableId": 19,
-        "name": "Fundraise Up Supporter Is Mailing List Subscribed",
+        "name": "Getmoredonations Supporter Is Mailing List Subscribed",
         "type": "v",
         "parameter": [
           {
@@ -1735,7 +1735,7 @@
           {
             "type": "TEMPLATE",
             "key": "name",
-            "value": "FundraiseUp.supporter.mailingListSubscribed"
+            "value": "Getmoredonations.supporter.mailingListSubscribed"
           }
         ],
         "fingerprint": "0000000000000",
@@ -1746,7 +1746,7 @@
         "accountId": "0000000000",
         "containerId": "00000000",
         "variableId": 20,
-        "name": "Fundraise Up Supporter Is Anonymous",
+        "name": "Getmoredonations Supporter Is Anonymous",
         "type": "v",
         "parameter": [
           {
@@ -1762,7 +1762,7 @@
           {
             "type": "TEMPLATE",
             "key": "name",
-            "value": "FundraiseUp.supporter.anonymous"
+            "value": "Getmoredonations.supporter.anonymous"
           }
         ],
         "fingerprint": "0000000000000",
@@ -1773,7 +1773,7 @@
         "accountId": "0000000000",
         "containerId": "00000000",
         "variableId": 21,
-        "name": "Fundraise Up Supporter Employer",
+        "name": "Getmoredonations Supporter Employer",
         "type": "v",
         "parameter": [
           {
@@ -1789,7 +1789,7 @@
           {
             "type": "TEMPLATE",
             "key": "name",
-            "value": "FundraiseUp.supporter.employer"
+            "value": "Getmoredonations.supporter.employer"
           }
         ],
         "fingerprint": "0000000000000",
@@ -1800,7 +1800,7 @@
         "accountId": "0000000000",
         "containerId": "00000000",
         "variableId": 22,
-        "name": "Fundraise Up Supporter On Behalf Of",
+        "name": "Getmoredonations Supporter On Behalf Of",
         "type": "v",
         "parameter": [
           {
@@ -1816,7 +1816,7 @@
           {
             "type": "TEMPLATE",
             "key": "name",
-            "value": "FundraiseUp.supporter.onBehalfOf"
+            "value": "Getmoredonations.supporter.onBehalfOf"
           }
         ],
         "fingerprint": "0000000000000",
@@ -1827,7 +1827,7 @@
         "accountId": "0000000000",
         "containerId": "00000000",
         "variableId": 23,
-        "name": "Fundraise Up Is Livemode",
+        "name": "Getmoredonations Is Livemode",
         "type": "v",
         "parameter": [
           {
@@ -1843,7 +1843,7 @@
           {
             "type": "TEMPLATE",
             "key": "name",
-            "value": "FundraiseUp.livemode"
+            "value": "Getmoredonations.livemode"
           }
         ],
         "fingerprint": "0000000000000",
@@ -1854,7 +1854,7 @@
         "accountId": "0000000000",
         "containerId": "00000000",
         "variableId": 24,
-        "name": "Fundraise Up Element ID",
+        "name": "Getmoredonations Element ID",
         "type": "v",
         "parameter": [
           {
@@ -1870,7 +1870,7 @@
           {
             "type": "TEMPLATE",
             "key": "name",
-            "value": "FundraiseUp.element.id"
+            "value": "Getmoredonations.element.id"
           }
         ],
         "fingerprint": "0000000000000",
@@ -1881,7 +1881,7 @@
         "accountId": "0000000000",
         "containerId": "00000000",
         "variableId": 25,
-        "name": "Fundraise Up Element Name",
+        "name": "Getmoredonations Element Name",
         "type": "v",
         "parameter": [
           {
@@ -1897,7 +1897,7 @@
           {
             "type": "TEMPLATE",
             "key": "name",
-            "value": "FundraiseUp.element.name"
+            "value": "Getmoredonations.element.name"
           }
         ],
         "fingerprint": "0000000000000",
@@ -1908,7 +1908,7 @@
         "accountId": "0000000000",
         "containerId": "00000000",
         "variableId": 26,
-        "name": "Fundraise Up Element Type",
+        "name": "Getmoredonations Element Type",
         "type": "v",
         "parameter": [
           {
@@ -1924,7 +1924,7 @@
           {
             "type": "TEMPLATE",
             "key": "name",
-            "value": "FundraiseUp.element.type"
+            "value": "Getmoredonations.element.type"
           }
         ],
         "fingerprint": "0000000000000",
@@ -1937,21 +1937,21 @@
         "accountId": "0000000000",
         "containerId": "00000000",
         "folderId": "1",
-        "name": "Fundraise Up Triggers",
+        "name": "Getmoredonations Triggers",
         "fingerprint": "0000000000000"
       },
       {
         "accountId": "0000000000",
         "containerId": "00000000",
         "folderId": "2",
-        "name": "Fundraise Up Tags",
+        "name": "Getmoredonations Tags",
         "fingerprint": "0000000000000"
       },
       {
         "accountId": "0000000000",
         "containerId": "00000000",
         "folderId": "3",
-        "name": "Fundraise Up Event Parameters",
+        "name": "Getmoredonations Event Parameters",
         "fingerprint": "0000000000000"
       }
     ],
