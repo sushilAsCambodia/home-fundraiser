@@ -1,0 +1,1962 @@
+{
+  "exportFormatVersion": 2,
+  "containerVersion": {
+    "path": "accounts/0000000000/containers/00000000/versions/1",
+    "accountId": "0000000000",
+    "containerId": "00000000",
+    "containerVersionId": "1",
+    "container": {
+      "path": "accounts/0000000000/containers/00000000",
+      "accountId": "0000000000",
+      "containerId": "00000000",
+      "name": "Fundraise Up Google Analytics Container",
+      "publicId": "GTM-XXXXXXX",
+      "usageContext": ["WEB"],
+      "fingerprint": "0000000000000",
+      "tagManagerUrl": "https://tagmanager.google.com/#/container/accounts/0000000000/containers/00000000/workspaces?apiLink=container"
+    },
+    "tag": [
+      {
+        "accountId": "0000000000",
+        "containerId": "00000000",
+        "tagId": "1",
+        "name": "Fundraise Up Checkout Open",
+        "type": "gaawe",
+        "parameter": [
+          {
+            "type": "BOOLEAN",
+            "key": "sendEcommerceData",
+            "value": "false"
+          },
+          {
+            "type": "LIST",
+            "key": "userProperties",
+            "list": [
+              {
+                "type": "MAP",
+                "map": [
+                  {
+                    "type": "TEMPLATE",
+                    "key": "name",
+                    "value": "SupporterID"
+                  },
+                  {
+                    "type": "TEMPLATE",
+                    "key": "value",
+                    "value": "{{Fundraise Up Supporter ID}}"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "TEMPLATE",
+            "key": "eventName",
+            "value": "Fundraise Up Checkout Open"
+          },
+          {
+            "type": "LIST",
+            "key": "eventParameters",
+            "list": [
+              {
+                "type": "MAP",
+                "map": [
+                  {
+                    "type": "TEMPLATE",
+                    "key": "name",
+                    "value": "CampaignID"
+                  },
+                  {
+                    "type": "TEMPLATE",
+                    "key": "value",
+                    "value": "{{Fundraise Up Campaign ID}}"
+                  }
+                ]
+              },
+              {
+                "type": "MAP",
+                "map": [
+                  {
+                    "type": "TEMPLATE",
+                    "key": "name",
+                    "value": "CampaignCode"
+                  },
+                  {
+                    "type": "TEMPLATE",
+                    "key": "value",
+                    "value": "{{Fundraise Up Campaign Code}}"
+                  }
+                ]
+              },
+              {
+                "type": "MAP",
+                "map": [
+                  {
+                    "type": "TEMPLATE",
+                    "key": "name",
+                    "value": "CampaignName"
+                  },
+                  {
+                    "type": "TEMPLATE",
+                    "key": "value",
+                    "value": "{{Fundraise Up Campaign Name}}"
+                  }
+                ]
+              },
+              {
+                "type": "MAP",
+                "map": [
+                  {
+                    "type": "TEMPLATE",
+                    "key": "name",
+                    "value": "DonationID"
+                  },
+                  {
+                    "type": "TEMPLATE",
+                    "key": "value",
+                    "value": "{{Fundraise Up Donation ID}}"
+                  }
+                ]
+              },
+              {
+                "type": "MAP",
+                "map": [
+                  {
+                    "type": "TEMPLATE",
+                    "key": "name",
+                    "value": "DonationAmount"
+                  },
+                  {
+                    "type": "TEMPLATE",
+                    "key": "value",
+                    "value": "{{Fundraise Up Donation Amount}}"
+                  }
+                ]
+              },
+              {
+                "type": "MAP",
+                "map": [
+                  {
+                    "type": "TEMPLATE",
+                    "key": "name",
+                    "value": "DonationAreFeesCovered"
+                  },
+                  {
+                    "type": "TEMPLATE",
+                    "key": "value",
+                    "value": "{{Fundraise Up Donation Are Fees Covered}}"
+                  }
+                ]
+              },
+              {
+                "type": "MAP",
+                "map": [
+                  {
+                    "type": "TEMPLATE",
+                    "key": "name",
+                    "value": "DonationCurrency"
+                  },
+                  {
+                    "type": "TEMPLATE",
+                    "key": "value",
+                    "value": "{{Fundraise Up Donation Currency}}"
+                  }
+                ]
+              },
+              {
+                "type": "MAP",
+                "map": [
+                  {
+                    "type": "TEMPLATE",
+                    "key": "name",
+                    "value": "DonationIsRecurring"
+                  },
+                  {
+                    "type": "TEMPLATE",
+                    "key": "value",
+                    "value": "{{Fundraise Up Donation Is Recurring}}"
+                  }
+                ]
+              },
+              {
+                "type": "MAP",
+                "map": [
+                  {
+                    "type": "TEMPLATE",
+                    "key": "name",
+                    "value": "DonationPaymentMethod"
+                  },
+                  {
+                    "type": "TEMPLATE",
+                    "key": "value",
+                    "value": "{{Fundraise Up Donation Payment Method}}"
+                  }
+                ]
+              },
+              {
+                "type": "MAP",
+                "map": [
+                  {
+                    "type": "TEMPLATE",
+                    "key": "name",
+                    "value": "DonationFrequency"
+                  },
+                  {
+                    "type": "TEMPLATE",
+                    "key": "value",
+                    "value": "{{Fundraise Up Donation Frequency}}"
+                  }
+                ]
+              },
+              {
+                "type": "MAP",
+                "map": [
+                  {
+                    "type": "TEMPLATE",
+                    "key": "name",
+                    "value": "DesignationID"
+                  },
+                  {
+                    "type": "TEMPLATE",
+                    "key": "value",
+                    "value": "{{Fundraise Up Designation ID}}"
+                  }
+                ]
+              },
+              {
+                "type": "MAP",
+                "map": [
+                  {
+                    "type": "TEMPLATE",
+                    "key": "name",
+                    "value": "DesignationCode"
+                  },
+                  {
+                    "type": "TEMPLATE",
+                    "key": "value",
+                    "value": "{{Fundraise Up Designation Code}}"
+                  }
+                ]
+              },
+              {
+                "type": "MAP",
+                "map": [
+                  {
+                    "type": "TEMPLATE",
+                    "key": "name",
+                    "value": "DesignationName"
+                  },
+                  {
+                    "type": "TEMPLATE",
+                    "key": "value",
+                    "value": "{{Fundraise Up Designation Name}}"
+                  }
+                ]
+              },
+              {
+                "type": "MAP",
+                "map": [
+                  {
+                    "type": "TEMPLATE",
+                    "key": "name",
+                    "value": "TributeType"
+                  },
+                  {
+                    "type": "TEMPLATE",
+                    "key": "value",
+                    "value": "{{Fundraise Up Tribute Type}}"
+                  }
+                ]
+              },
+              {
+                "type": "MAP",
+                "map": [
+                  {
+                    "type": "TEMPLATE",
+                    "key": "name",
+                    "value": "SupporterIsMailingListSubscribed"
+                  },
+                  {
+                    "type": "TEMPLATE",
+                    "key": "value",
+                    "value": "{{Fundraise Up Supporter Is Mailing List Subscribed}}"
+                  }
+                ]
+              },
+              {
+                "type": "MAP",
+                "map": [
+                  {
+                    "type": "TEMPLATE",
+                    "key": "name",
+                    "value": "SupporterIsAnonymous"
+                  },
+                  {
+                    "type": "TEMPLATE",
+                    "key": "value",
+                    "value": "{{Fundraise Up Supporter Is Anonymous}}"
+                  }
+                ]
+              },
+              {
+                "type": "MAP",
+                "map": [
+                  {
+                    "type": "TEMPLATE",
+                    "key": "name",
+                    "value": "SupporterEmployer"
+                  },
+                  {
+                    "type": "TEMPLATE",
+                    "key": "value",
+                    "value": "{{Fundraise Up Supporter Employer}}"
+                  }
+                ]
+              },
+              {
+                "type": "MAP",
+                "map": [
+                  {
+                    "type": "TEMPLATE",
+                    "key": "name",
+                    "value": "SupporterOnBehalfOf"
+                  },
+                  {
+                    "type": "TEMPLATE",
+                    "key": "value",
+                    "value": "{{Fundraise Up Supporter On Behalf Of}}"
+                  }
+                ]
+              },
+              {
+                "type": "MAP",
+                "map": [
+                  {
+                    "type": "TEMPLATE",
+                    "key": "name",
+                    "value": "IsLivemode"
+                  },
+                  {
+                    "type": "TEMPLATE",
+                    "key": "value",
+                    "value": "{{Fundraise Up Is Livemode}}"
+                  }
+                ]
+              },
+              {
+                "type": "MAP",
+                "map": [
+                  {
+                    "type": "TEMPLATE",
+                    "key": "name",
+                    "value": "ElementID"
+                  },
+                  {
+                    "type": "TEMPLATE",
+                    "key": "value",
+                    "value": "{{Fundraise Up Element ID}}"
+                  }
+                ]
+              },
+              {
+                "type": "MAP",
+                "map": [
+                  {
+                    "type": "TEMPLATE",
+                    "key": "name",
+                    "value": "ElementName"
+                  },
+                  {
+                    "type": "TEMPLATE",
+                    "key": "value",
+                    "value": "{{Fundraise Up Element Name}}"
+                  }
+                ]
+              },
+              {
+                "type": "MAP",
+                "map": [
+                  {
+                    "type": "TEMPLATE",
+                    "key": "name",
+                    "value": "ElementType"
+                  },
+                  {
+                    "type": "TEMPLATE",
+                    "key": "value",
+                    "value": "{{Fundraise Up Element Type}}"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "TAG_REFERENCE",
+            "key": "measurementId",
+            "value": "Fundraise Up GA4 Configuration"
+          }
+        ],
+        "fingerprint": "0000000000000",
+        "firingTriggerId": ["3"],
+        "tagFiringOption": "ONCE_PER_EVENT",
+        "monitoringMetadata": {
+          "type": "MAP"
+        },
+        "consentSettings": {
+          "consentStatus": "NOT_SET"
+        },
+        "parentFolderId": "2"
+      },
+      {
+        "accountId": "0000000000",
+        "containerId": "00000000",
+        "tagId": "2",
+        "name": "Fundraise Up Checkout Close",
+        "type": "gaawe",
+        "parameter": [
+          {
+            "type": "BOOLEAN",
+            "key": "sendEcommerceData",
+            "value": "false"
+          },
+          {
+            "type": "LIST",
+            "key": "userProperties",
+            "list": [
+              {
+                "type": "MAP",
+                "map": [
+                  {
+                    "type": "TEMPLATE",
+                    "key": "name",
+                    "value": "SupporterID"
+                  },
+                  {
+                    "type": "TEMPLATE",
+                    "key": "value",
+                    "value": "{{Fundraise Up Supporter ID}}"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "TEMPLATE",
+            "key": "eventName",
+            "value": "Fundraise Up Checkout Close"
+          },
+          {
+            "type": "LIST",
+            "key": "eventParameters",
+            "list": [
+              {
+                "type": "MAP",
+                "map": [
+                  {
+                    "type": "TEMPLATE",
+                    "key": "name",
+                    "value": "CampaignID"
+                  },
+                  {
+                    "type": "TEMPLATE",
+                    "key": "value",
+                    "value": "{{Fundraise Up Campaign ID}}"
+                  }
+                ]
+              },
+              {
+                "type": "MAP",
+                "map": [
+                  {
+                    "type": "TEMPLATE",
+                    "key": "name",
+                    "value": "CampaignCode"
+                  },
+                  {
+                    "type": "TEMPLATE",
+                    "key": "value",
+                    "value": "{{Fundraise Up Campaign Code}}"
+                  }
+                ]
+              },
+              {
+                "type": "MAP",
+                "map": [
+                  {
+                    "type": "TEMPLATE",
+                    "key": "name",
+                    "value": "CampaignName"
+                  },
+                  {
+                    "type": "TEMPLATE",
+                    "key": "value",
+                    "value": "{{Fundraise Up Campaign Name}}"
+                  }
+                ]
+              },
+              {
+                "type": "MAP",
+                "map": [
+                  {
+                    "type": "TEMPLATE",
+                    "key": "name",
+                    "value": "DonationID"
+                  },
+                  {
+                    "type": "TEMPLATE",
+                    "key": "value",
+                    "value": "{{Fundraise Up Donation ID}}"
+                  }
+                ]
+              },
+              {
+                "type": "MAP",
+                "map": [
+                  {
+                    "type": "TEMPLATE",
+                    "key": "name",
+                    "value": "DonationAmount"
+                  },
+                  {
+                    "type": "TEMPLATE",
+                    "key": "value",
+                    "value": "{{Fundraise Up Donation Amount}}"
+                  }
+                ]
+              },
+              {
+                "type": "MAP",
+                "map": [
+                  {
+                    "type": "TEMPLATE",
+                    "key": "name",
+                    "value": "DonationAreFeesCovered"
+                  },
+                  {
+                    "type": "TEMPLATE",
+                    "key": "value",
+                    "value": "{{Fundraise Up Donation Are Fees Covered}}"
+                  }
+                ]
+              },
+              {
+                "type": "MAP",
+                "map": [
+                  {
+                    "type": "TEMPLATE",
+                    "key": "name",
+                    "value": "DonationCurrency"
+                  },
+                  {
+                    "type": "TEMPLATE",
+                    "key": "value",
+                    "value": "{{Fundraise Up Donation Currency}}"
+                  }
+                ]
+              },
+              {
+                "type": "MAP",
+                "map": [
+                  {
+                    "type": "TEMPLATE",
+                    "key": "name",
+                    "value": "DonationIsRecurring"
+                  },
+                  {
+                    "type": "TEMPLATE",
+                    "key": "value",
+                    "value": "{{Fundraise Up Donation Is Recurring}}"
+                  }
+                ]
+              },
+              {
+                "type": "MAP",
+                "map": [
+                  {
+                    "type": "TEMPLATE",
+                    "key": "name",
+                    "value": "DonationPaymentMethod"
+                  },
+                  {
+                    "type": "TEMPLATE",
+                    "key": "value",
+                    "value": "{{Fundraise Up Donation Payment Method}}"
+                  }
+                ]
+              },
+              {
+                "type": "MAP",
+                "map": [
+                  {
+                    "type": "TEMPLATE",
+                    "key": "name",
+                    "value": "DonationFrequency"
+                  },
+                  {
+                    "type": "TEMPLATE",
+                    "key": "value",
+                    "value": "{{Fundraise Up Donation Frequency}}"
+                  }
+                ]
+              },
+              {
+                "type": "MAP",
+                "map": [
+                  {
+                    "type": "TEMPLATE",
+                    "key": "name",
+                    "value": "DesignationID"
+                  },
+                  {
+                    "type": "TEMPLATE",
+                    "key": "value",
+                    "value": "{{Fundraise Up Designation ID}}"
+                  }
+                ]
+              },
+              {
+                "type": "MAP",
+                "map": [
+                  {
+                    "type": "TEMPLATE",
+                    "key": "name",
+                    "value": "DesignationCode"
+                  },
+                  {
+                    "type": "TEMPLATE",
+                    "key": "value",
+                    "value": "{{Fundraise Up Designation Code}}"
+                  }
+                ]
+              },
+              {
+                "type": "MAP",
+                "map": [
+                  {
+                    "type": "TEMPLATE",
+                    "key": "name",
+                    "value": "DesignationName"
+                  },
+                  {
+                    "type": "TEMPLATE",
+                    "key": "value",
+                    "value": "{{Fundraise Up Designation Name}}"
+                  }
+                ]
+              },
+              {
+                "type": "MAP",
+                "map": [
+                  {
+                    "type": "TEMPLATE",
+                    "key": "name",
+                    "value": "TributeType"
+                  },
+                  {
+                    "type": "TEMPLATE",
+                    "key": "value",
+                    "value": "{{Fundraise Up Tribute Type}}"
+                  }
+                ]
+              },
+              {
+                "type": "MAP",
+                "map": [
+                  {
+                    "type": "TEMPLATE",
+                    "key": "name",
+                    "value": "SupporterIsMailingListSubscribed"
+                  },
+                  {
+                    "type": "TEMPLATE",
+                    "key": "value",
+                    "value": "{{Fundraise Up Supporter Is Mailing List Subscribed}}"
+                  }
+                ]
+              },
+              {
+                "type": "MAP",
+                "map": [
+                  {
+                    "type": "TEMPLATE",
+                    "key": "name",
+                    "value": "SupporterIsAnonymous"
+                  },
+                  {
+                    "type": "TEMPLATE",
+                    "key": "value",
+                    "value": "{{Fundraise Up Supporter Is Anonymous}}"
+                  }
+                ]
+              },
+              {
+                "type": "MAP",
+                "map": [
+                  {
+                    "type": "TEMPLATE",
+                    "key": "name",
+                    "value": "SupporterEmployer"
+                  },
+                  {
+                    "type": "TEMPLATE",
+                    "key": "value",
+                    "value": "{{Fundraise Up Supporter Employer}}"
+                  }
+                ]
+              },
+              {
+                "type": "MAP",
+                "map": [
+                  {
+                    "type": "TEMPLATE",
+                    "key": "name",
+                    "value": "SupporterOnBehalfOf"
+                  },
+                  {
+                    "type": "TEMPLATE",
+                    "key": "value",
+                    "value": "{{Fundraise Up Supporter On Behalf Of}}"
+                  }
+                ]
+              },
+              {
+                "type": "MAP",
+                "map": [
+                  {
+                    "type": "TEMPLATE",
+                    "key": "name",
+                    "value": "IsLivemode"
+                  },
+                  {
+                    "type": "TEMPLATE",
+                    "key": "value",
+                    "value": "{{Fundraise Up Is Livemode}}"
+                  }
+                ]
+              },
+              {
+                "type": "MAP",
+                "map": [
+                  {
+                    "type": "TEMPLATE",
+                    "key": "name",
+                    "value": "ElementID"
+                  },
+                  {
+                    "type": "TEMPLATE",
+                    "key": "value",
+                    "value": "{{Fundraise Up Element ID}}"
+                  }
+                ]
+              },
+              {
+                "type": "MAP",
+                "map": [
+                  {
+                    "type": "TEMPLATE",
+                    "key": "name",
+                    "value": "ElementName"
+                  },
+                  {
+                    "type": "TEMPLATE",
+                    "key": "value",
+                    "value": "{{Fundraise Up Element Name}}"
+                  }
+                ]
+              },
+              {
+                "type": "MAP",
+                "map": [
+                  {
+                    "type": "TEMPLATE",
+                    "key": "name",
+                    "value": "ElementType"
+                  },
+                  {
+                    "type": "TEMPLATE",
+                    "key": "value",
+                    "value": "{{Fundraise Up Element Type}}"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "TAG_REFERENCE",
+            "key": "measurementId",
+            "value": "Fundraise Up GA4 Configuration"
+          }
+        ],
+        "fingerprint": "0000000000000",
+        "firingTriggerId": ["2"],
+        "tagFiringOption": "ONCE_PER_EVENT",
+        "monitoringMetadata": {
+          "type": "MAP"
+        },
+        "consentSettings": {
+          "consentStatus": "NOT_SET"
+        },
+        "parentFolderId": "2"
+      },
+      {
+        "accountId": "0000000000",
+        "containerId": "00000000",
+        "tagId": "3",
+        "name": "Fundraise Up Donation",
+        "type": "gaawe",
+        "parameter": [
+          {
+            "type": "BOOLEAN",
+            "key": "sendEcommerceData",
+            "value": "true"
+          },
+          {
+            "type": "LIST",
+            "key": "userProperties",
+            "list": [
+              {
+                "type": "MAP",
+                "map": [
+                  {
+                    "type": "TEMPLATE",
+                    "key": "name",
+                    "value": "SupporterID"
+                  },
+                  {
+                    "type": "TEMPLATE",
+                    "key": "value",
+                    "value": "{{Fundraise Up Supporter ID}}"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "TEMPLATE",
+            "key": "getEcommerceDataFrom",
+            "value": "dataLayer"
+          },
+          {
+            "type": "TEMPLATE",
+            "key": "eventName",
+            "value": "purchase"
+          },
+          {
+            "type": "LIST",
+            "key": "eventParameters",
+            "list": [
+              {
+                "type": "MAP",
+                "map": [
+                  {
+                    "type": "TEMPLATE",
+                    "key": "name",
+                    "value": "CampaignID"
+                  },
+                  {
+                    "type": "TEMPLATE",
+                    "key": "value",
+                    "value": "{{Fundraise Up Campaign ID}}"
+                  }
+                ]
+              },
+              {
+                "type": "MAP",
+                "map": [
+                  {
+                    "type": "TEMPLATE",
+                    "key": "name",
+                    "value": "CampaignCode"
+                  },
+                  {
+                    "type": "TEMPLATE",
+                    "key": "value",
+                    "value": "{{Fundraise Up Campaign Code}}"
+                  }
+                ]
+              },
+              {
+                "type": "MAP",
+                "map": [
+                  {
+                    "type": "TEMPLATE",
+                    "key": "name",
+                    "value": "CampaignName"
+                  },
+                  {
+                    "type": "TEMPLATE",
+                    "key": "value",
+                    "value": "{{Fundraise Up Campaign Name}}"
+                  }
+                ]
+              },
+              {
+                "type": "MAP",
+                "map": [
+                  {
+                    "type": "TEMPLATE",
+                    "key": "name",
+                    "value": "DonationID"
+                  },
+                  {
+                    "type": "TEMPLATE",
+                    "key": "value",
+                    "value": "{{Fundraise Up Donation ID}}"
+                  }
+                ]
+              },
+              {
+                "type": "MAP",
+                "map": [
+                  {
+                    "type": "TEMPLATE",
+                    "key": "name",
+                    "value": "DonationAmount"
+                  },
+                  {
+                    "type": "TEMPLATE",
+                    "key": "value",
+                    "value": "{{Fundraise Up Donation Amount}}"
+                  }
+                ]
+              },
+              {
+                "type": "MAP",
+                "map": [
+                  {
+                    "type": "TEMPLATE",
+                    "key": "name",
+                    "value": "DonationAreFeesCovered"
+                  },
+                  {
+                    "type": "TEMPLATE",
+                    "key": "value",
+                    "value": "{{Fundraise Up Donation Are Fees Covered}}"
+                  }
+                ]
+              },
+              {
+                "type": "MAP",
+                "map": [
+                  {
+                    "type": "TEMPLATE",
+                    "key": "name",
+                    "value": "DonationCurrency"
+                  },
+                  {
+                    "type": "TEMPLATE",
+                    "key": "value",
+                    "value": "{{Fundraise Up Donation Currency}}"
+                  }
+                ]
+              },
+              {
+                "type": "MAP",
+                "map": [
+                  {
+                    "type": "TEMPLATE",
+                    "key": "name",
+                    "value": "DonationIsRecurring"
+                  },
+                  {
+                    "type": "TEMPLATE",
+                    "key": "value",
+                    "value": "{{Fundraise Up Donation Is Recurring}}"
+                  }
+                ]
+              },
+              {
+                "type": "MAP",
+                "map": [
+                  {
+                    "type": "TEMPLATE",
+                    "key": "name",
+                    "value": "DonationPaymentMethod"
+                  },
+                  {
+                    "type": "TEMPLATE",
+                    "key": "value",
+                    "value": "{{Fundraise Up Donation Payment Method}}"
+                  }
+                ]
+              },
+              {
+                "type": "MAP",
+                "map": [
+                  {
+                    "type": "TEMPLATE",
+                    "key": "name",
+                    "value": "DonationFrequency"
+                  },
+                  {
+                    "type": "TEMPLATE",
+                    "key": "value",
+                    "value": "{{Fundraise Up Donation Frequency}}"
+                  }
+                ]
+              },
+              {
+                "type": "MAP",
+                "map": [
+                  {
+                    "type": "TEMPLATE",
+                    "key": "name",
+                    "value": "DesignationID"
+                  },
+                  {
+                    "type": "TEMPLATE",
+                    "key": "value",
+                    "value": "{{Fundraise Up Designation ID}}"
+                  }
+                ]
+              },
+              {
+                "type": "MAP",
+                "map": [
+                  {
+                    "type": "TEMPLATE",
+                    "key": "name",
+                    "value": "DesignationCode"
+                  },
+                  {
+                    "type": "TEMPLATE",
+                    "key": "value",
+                    "value": "{{Fundraise Up Designation Code}}"
+                  }
+                ]
+              },
+              {
+                "type": "MAP",
+                "map": [
+                  {
+                    "type": "TEMPLATE",
+                    "key": "name",
+                    "value": "DesignationName"
+                  },
+                  {
+                    "type": "TEMPLATE",
+                    "key": "value",
+                    "value": "{{Fundraise Up Designation Name}}"
+                  }
+                ]
+              },
+              {
+                "type": "MAP",
+                "map": [
+                  {
+                    "type": "TEMPLATE",
+                    "key": "name",
+                    "value": "TributeType"
+                  },
+                  {
+                    "type": "TEMPLATE",
+                    "key": "value",
+                    "value": "{{Fundraise Up Tribute Type}}"
+                  }
+                ]
+              },
+              {
+                "type": "MAP",
+                "map": [
+                  {
+                    "type": "TEMPLATE",
+                    "key": "name",
+                    "value": "SupporterIsMailingListSubscribed"
+                  },
+                  {
+                    "type": "TEMPLATE",
+                    "key": "value",
+                    "value": "{{Fundraise Up Supporter Is Mailing List Subscribed}}"
+                  }
+                ]
+              },
+              {
+                "type": "MAP",
+                "map": [
+                  {
+                    "type": "TEMPLATE",
+                    "key": "name",
+                    "value": "SupporterIsAnonymous"
+                  },
+                  {
+                    "type": "TEMPLATE",
+                    "key": "value",
+                    "value": "{{Fundraise Up Supporter Is Anonymous}}"
+                  }
+                ]
+              },
+              {
+                "type": "MAP",
+                "map": [
+                  {
+                    "type": "TEMPLATE",
+                    "key": "name",
+                    "value": "SupporterEmployer"
+                  },
+                  {
+                    "type": "TEMPLATE",
+                    "key": "value",
+                    "value": "{{Fundraise Up Supporter Employer}}"
+                  }
+                ]
+              },
+              {
+                "type": "MAP",
+                "map": [
+                  {
+                    "type": "TEMPLATE",
+                    "key": "name",
+                    "value": "SupporterOnBehalfOf"
+                  },
+                  {
+                    "type": "TEMPLATE",
+                    "key": "value",
+                    "value": "{{Fundraise Up Supporter On Behalf Of}}"
+                  }
+                ]
+              },
+              {
+                "type": "MAP",
+                "map": [
+                  {
+                    "type": "TEMPLATE",
+                    "key": "name",
+                    "value": "IsLivemode"
+                  },
+                  {
+                    "type": "TEMPLATE",
+                    "key": "value",
+                    "value": "{{Fundraise Up Is Livemode}}"
+                  }
+                ]
+              },
+              {
+                "type": "MAP",
+                "map": [
+                  {
+                    "type": "TEMPLATE",
+                    "key": "name",
+                    "value": "ElementID"
+                  },
+                  {
+                    "type": "TEMPLATE",
+                    "key": "value",
+                    "value": "{{Fundraise Up Element ID}}"
+                  }
+                ]
+              },
+              {
+                "type": "MAP",
+                "map": [
+                  {
+                    "type": "TEMPLATE",
+                    "key": "name",
+                    "value": "ElementName"
+                  },
+                  {
+                    "type": "TEMPLATE",
+                    "key": "value",
+                    "value": "{{Fundraise Up Element Name}}"
+                  }
+                ]
+              },
+              {
+                "type": "MAP",
+                "map": [
+                  {
+                    "type": "TEMPLATE",
+                    "key": "name",
+                    "value": "ElementType"
+                  },
+                  {
+                    "type": "TEMPLATE",
+                    "key": "value",
+                    "value": "{{Fundraise Up Element Type}}"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "TAG_REFERENCE",
+            "key": "measurementId",
+            "value": "Fundraise Up GA4 Configuration"
+          }
+        ],
+        "fingerprint": "0000000000000",
+        "firingTriggerId": ["1"],
+        "tagFiringOption": "ONCE_PER_EVENT",
+        "monitoringMetadata": {
+          "type": "MAP"
+        },
+        "consentSettings": {
+          "consentStatus": "NOT_SET"
+        },
+        "parentFolderId": "2"
+      },
+      {
+        "accountId": "0000000000",
+        "containerId": "00000000",
+        "tagId": "4",
+        "name": "Fundraise Up GA4 Configuration",
+        "type": "gaawc",
+        "parameter": [
+          {
+            "type": "BOOLEAN",
+            "key": "sendPageView",
+            "value": "true"
+          },
+          {
+            "type": "BOOLEAN",
+            "key": "enableSendToServerContainer",
+            "value": "false"
+          },
+          {
+            "type": "TEMPLATE",
+            "key": "measurementId",
+            "value": "G-XXXXXXXX"
+          }
+        ],
+        "fingerprint": "0000000000000",
+        "firingTriggerId": ["2147479553"],
+        "parentFolderId": "2",
+        "tagFiringOption": "ONCE_PER_EVENT",
+        "monitoringMetadata": {
+          "type": "MAP"
+        },
+        "consentSettings": {
+          "consentStatus": "NOT_SET"
+        }
+      }
+    ],
+    "trigger": [
+      {
+        "accountId": "0000000000",
+        "containerId": "00000000",
+        "triggerId": "1",
+        "name": "Fundraise Up Donation Complete",
+        "type": "CUSTOM_EVENT",
+        "customEventFilter": [
+          {
+            "type": "EQUALS",
+            "parameter": [
+              {
+                "type": "TEMPLATE",
+                "key": "arg0",
+                "value": "{{_event}}"
+              },
+              {
+                "type": "TEMPLATE",
+                "key": "arg1",
+                "value": "FundraiseUp.donationComplete"
+              }
+            ]
+          }
+        ],
+        "fingerprint": "0000000000000",
+        "parentFolderId": "1"
+      },
+      {
+        "accountId": "0000000000",
+        "containerId": "00000000",
+        "triggerId": "2",
+        "name": "Fundraise Up Checkout Close",
+        "type": "CUSTOM_EVENT",
+        "customEventFilter": [
+          {
+            "type": "EQUALS",
+            "parameter": [
+              {
+                "type": "TEMPLATE",
+                "key": "arg0",
+                "value": "{{_event}}"
+              },
+              {
+                "type": "TEMPLATE",
+                "key": "arg1",
+                "value": "FundraiseUp.checkoutClose"
+              }
+            ]
+          }
+        ],
+        "fingerprint": "0000000000000",
+        "parentFolderId": "1"
+      },
+      {
+        "accountId": "0000000000",
+        "containerId": "00000000",
+        "triggerId": "3",
+        "name": "Fundraise Up Checkout Open",
+        "type": "CUSTOM_EVENT",
+        "customEventFilter": [
+          {
+            "type": "EQUALS",
+            "parameter": [
+              {
+                "type": "TEMPLATE",
+                "key": "arg0",
+                "value": "{{_event}}"
+              },
+              {
+                "type": "TEMPLATE",
+                "key": "arg1",
+                "value": "FundraiseUp.checkoutOpen"
+              }
+            ]
+          }
+        ],
+        "fingerprint": "0000000000000",
+        "parentFolderId": "1"
+      }
+    ],
+    "variable": [
+      {
+        "accountId": "0000000000",
+        "containerId": "00000000",
+        "variableId": 1,
+        "name": "Fundraise Up Campaign ID",
+        "type": "v",
+        "parameter": [
+          {
+            "type": "INTEGER",
+            "key": "dataLayerVersion",
+            "value": "2"
+          },
+          {
+            "type": "BOOLEAN",
+            "key": "setDefaultValue",
+            "value": "false"
+          },
+          {
+            "type": "TEMPLATE",
+            "key": "name",
+            "value": "FundraiseUp.campaign.id"
+          }
+        ],
+        "fingerprint": "0000000000000",
+        "formatValue": {},
+        "parentFolderId": "3"
+      },
+      {
+        "accountId": "0000000000",
+        "containerId": "00000000",
+        "variableId": 2,
+        "name": "Fundraise Up Campaign Code",
+        "type": "v",
+        "parameter": [
+          {
+            "type": "INTEGER",
+            "key": "dataLayerVersion",
+            "value": "2"
+          },
+          {
+            "type": "BOOLEAN",
+            "key": "setDefaultValue",
+            "value": "false"
+          },
+          {
+            "type": "TEMPLATE",
+            "key": "name",
+            "value": "FundraiseUp.campaign.code"
+          }
+        ],
+        "fingerprint": "0000000000000",
+        "formatValue": {},
+        "parentFolderId": "3"
+      },
+      {
+        "accountId": "0000000000",
+        "containerId": "00000000",
+        "variableId": 3,
+        "name": "Fundraise Up Campaign Name",
+        "type": "v",
+        "parameter": [
+          {
+            "type": "INTEGER",
+            "key": "dataLayerVersion",
+            "value": "2"
+          },
+          {
+            "type": "BOOLEAN",
+            "key": "setDefaultValue",
+            "value": "false"
+          },
+          {
+            "type": "TEMPLATE",
+            "key": "name",
+            "value": "FundraiseUp.campaign.name"
+          }
+        ],
+        "fingerprint": "0000000000000",
+        "formatValue": {},
+        "parentFolderId": "3"
+      },
+      {
+        "accountId": "0000000000",
+        "containerId": "00000000",
+        "variableId": 4,
+        "name": "Fundraise Up Donation ID",
+        "type": "v",
+        "parameter": [
+          {
+            "type": "INTEGER",
+            "key": "dataLayerVersion",
+            "value": "2"
+          },
+          {
+            "type": "BOOLEAN",
+            "key": "setDefaultValue",
+            "value": "false"
+          },
+          {
+            "type": "TEMPLATE",
+            "key": "name",
+            "value": "FundraiseUp.donation.id"
+          }
+        ],
+        "fingerprint": "0000000000000",
+        "formatValue": {},
+        "parentFolderId": "3"
+      },
+      {
+        "accountId": "0000000000",
+        "containerId": "00000000",
+        "variableId": 5,
+        "name": "Fundraise Up Donation Amount",
+        "type": "v",
+        "parameter": [
+          {
+            "type": "INTEGER",
+            "key": "dataLayerVersion",
+            "value": "2"
+          },
+          {
+            "type": "BOOLEAN",
+            "key": "setDefaultValue",
+            "value": "false"
+          },
+          {
+            "type": "TEMPLATE",
+            "key": "name",
+            "value": "FundraiseUp.donation.amount"
+          }
+        ],
+        "fingerprint": "0000000000000",
+        "formatValue": {},
+        "parentFolderId": "3"
+      },
+      {
+        "accountId": "0000000000",
+        "containerId": "00000000",
+        "variableId": 6,
+        "name": "Fundraise Up Donation Are Fees Covered",
+        "type": "v",
+        "parameter": [
+          {
+            "type": "INTEGER",
+            "key": "dataLayerVersion",
+            "value": "2"
+          },
+          {
+            "type": "BOOLEAN",
+            "key": "setDefaultValue",
+            "value": "false"
+          },
+          {
+            "type": "TEMPLATE",
+            "key": "name",
+            "value": "FundraiseUp.donation.feesCovered"
+          }
+        ],
+        "fingerprint": "0000000000000",
+        "formatValue": {},
+        "parentFolderId": "3"
+      },
+      {
+        "accountId": "0000000000",
+        "containerId": "00000000",
+        "variableId": 7,
+        "name": "Fundraise Up Donation Currency",
+        "type": "v",
+        "parameter": [
+          {
+            "type": "INTEGER",
+            "key": "dataLayerVersion",
+            "value": "2"
+          },
+          {
+            "type": "BOOLEAN",
+            "key": "setDefaultValue",
+            "value": "false"
+          },
+          {
+            "type": "TEMPLATE",
+            "key": "name",
+            "value": "FundraiseUp.donation.currency"
+          }
+        ],
+        "fingerprint": "0000000000000",
+        "formatValue": {},
+        "parentFolderId": "3"
+      },
+      {
+        "accountId": "0000000000",
+        "containerId": "00000000",
+        "variableId": 8,
+        "name": "Fundraise Up Donation Is Recurring",
+        "type": "v",
+        "parameter": [
+          {
+            "type": "INTEGER",
+            "key": "dataLayerVersion",
+            "value": "2"
+          },
+          {
+            "type": "BOOLEAN",
+            "key": "setDefaultValue",
+            "value": "false"
+          },
+          {
+            "type": "TEMPLATE",
+            "key": "name",
+            "value": "FundraiseUp.donation.recurring"
+          }
+        ],
+        "fingerprint": "0000000000000",
+        "formatValue": {},
+        "parentFolderId": "3"
+      },
+      {
+        "accountId": "0000000000",
+        "containerId": "00000000",
+        "variableId": 9,
+        "name": "Fundraise Up Donation Payment Method",
+        "type": "v",
+        "parameter": [
+          {
+            "type": "INTEGER",
+            "key": "dataLayerVersion",
+            "value": "2"
+          },
+          {
+            "type": "BOOLEAN",
+            "key": "setDefaultValue",
+            "value": "false"
+          },
+          {
+            "type": "TEMPLATE",
+            "key": "name",
+            "value": "FundraiseUp.donation.paymentMethod"
+          }
+        ],
+        "fingerprint": "0000000000000",
+        "formatValue": {},
+        "parentFolderId": "3"
+      },
+      {
+        "accountId": "0000000000",
+        "containerId": "00000000",
+        "variableId": 10,
+        "name": "Fundraise Up Donation Frequency",
+        "type": "v",
+        "parameter": [
+          {
+            "type": "INTEGER",
+            "key": "dataLayerVersion",
+            "value": "2"
+          },
+          {
+            "type": "BOOLEAN",
+            "key": "setDefaultValue",
+            "value": "false"
+          },
+          {
+            "type": "TEMPLATE",
+            "key": "name",
+            "value": "FundraiseUp.donation.frequency"
+          }
+        ],
+        "fingerprint": "0000000000000",
+        "formatValue": {},
+        "parentFolderId": "3"
+      },
+      {
+        "accountId": "0000000000",
+        "containerId": "00000000",
+        "variableId": 11,
+        "name": "Fundraise Up Designation ID",
+        "type": "v",
+        "parameter": [
+          {
+            "type": "INTEGER",
+            "key": "dataLayerVersion",
+            "value": "2"
+          },
+          {
+            "type": "BOOLEAN",
+            "key": "setDefaultValue",
+            "value": "false"
+          },
+          {
+            "type": "TEMPLATE",
+            "key": "name",
+            "value": "FundraiseUp.designation.id"
+          }
+        ],
+        "fingerprint": "0000000000000",
+        "formatValue": {},
+        "parentFolderId": "3"
+      },
+      {
+        "accountId": "0000000000",
+        "containerId": "00000000",
+        "variableId": 12,
+        "name": "Fundraise Up Designation Code",
+        "type": "v",
+        "parameter": [
+          {
+            "type": "INTEGER",
+            "key": "dataLayerVersion",
+            "value": "2"
+          },
+          {
+            "type": "BOOLEAN",
+            "key": "setDefaultValue",
+            "value": "false"
+          },
+          {
+            "type": "TEMPLATE",
+            "key": "name",
+            "value": "FundraiseUp.designation.code"
+          }
+        ],
+        "fingerprint": "0000000000000",
+        "formatValue": {},
+        "parentFolderId": "3"
+      },
+      {
+        "accountId": "0000000000",
+        "containerId": "00000000",
+        "variableId": 13,
+        "name": "Fundraise Up Designation Name",
+        "type": "v",
+        "parameter": [
+          {
+            "type": "INTEGER",
+            "key": "dataLayerVersion",
+            "value": "2"
+          },
+          {
+            "type": "BOOLEAN",
+            "key": "setDefaultValue",
+            "value": "false"
+          },
+          {
+            "type": "TEMPLATE",
+            "key": "name",
+            "value": "FundraiseUp.designation.name"
+          }
+        ],
+        "fingerprint": "0000000000000",
+        "formatValue": {},
+        "parentFolderId": "3"
+      },
+      {
+        "accountId": "0000000000",
+        "containerId": "00000000",
+        "variableId": 14,
+        "name": "Fundraise Up Tribute Type",
+        "type": "v",
+        "parameter": [
+          {
+            "type": "INTEGER",
+            "key": "dataLayerVersion",
+            "value": "2"
+          },
+          {
+            "type": "BOOLEAN",
+            "key": "setDefaultValue",
+            "value": "false"
+          },
+          {
+            "type": "TEMPLATE",
+            "key": "name",
+            "value": "FundraiseUp.tribute.type"
+          }
+        ],
+        "fingerprint": "0000000000000",
+        "formatValue": {},
+        "parentFolderId": "3"
+      },
+      {
+        "accountId": "0000000000",
+        "containerId": "00000000",
+        "variableId": 15,
+        "name": "Fundraise Up Supporter ID",
+        "type": "v",
+        "parameter": [
+          {
+            "type": "INTEGER",
+            "key": "dataLayerVersion",
+            "value": "2"
+          },
+          {
+            "type": "BOOLEAN",
+            "key": "setDefaultValue",
+            "value": "false"
+          },
+          {
+            "type": "TEMPLATE",
+            "key": "name",
+            "value": "FundraiseUp.supporter.id"
+          }
+        ],
+        "fingerprint": "0000000000000",
+        "formatValue": {},
+        "parentFolderId": "3"
+      },
+      {
+        "accountId": "0000000000",
+        "containerId": "00000000",
+        "variableId": 19,
+        "name": "Fundraise Up Supporter Is Mailing List Subscribed",
+        "type": "v",
+        "parameter": [
+          {
+            "type": "INTEGER",
+            "key": "dataLayerVersion",
+            "value": "2"
+          },
+          {
+            "type": "BOOLEAN",
+            "key": "setDefaultValue",
+            "value": "false"
+          },
+          {
+            "type": "TEMPLATE",
+            "key": "name",
+            "value": "FundraiseUp.supporter.mailingListSubscribed"
+          }
+        ],
+        "fingerprint": "0000000000000",
+        "formatValue": {},
+        "parentFolderId": "3"
+      },
+      {
+        "accountId": "0000000000",
+        "containerId": "00000000",
+        "variableId": 20,
+        "name": "Fundraise Up Supporter Is Anonymous",
+        "type": "v",
+        "parameter": [
+          {
+            "type": "INTEGER",
+            "key": "dataLayerVersion",
+            "value": "2"
+          },
+          {
+            "type": "BOOLEAN",
+            "key": "setDefaultValue",
+            "value": "false"
+          },
+          {
+            "type": "TEMPLATE",
+            "key": "name",
+            "value": "FundraiseUp.supporter.anonymous"
+          }
+        ],
+        "fingerprint": "0000000000000",
+        "formatValue": {},
+        "parentFolderId": "3"
+      },
+      {
+        "accountId": "0000000000",
+        "containerId": "00000000",
+        "variableId": 21,
+        "name": "Fundraise Up Supporter Employer",
+        "type": "v",
+        "parameter": [
+          {
+            "type": "INTEGER",
+            "key": "dataLayerVersion",
+            "value": "2"
+          },
+          {
+            "type": "BOOLEAN",
+            "key": "setDefaultValue",
+            "value": "false"
+          },
+          {
+            "type": "TEMPLATE",
+            "key": "name",
+            "value": "FundraiseUp.supporter.employer"
+          }
+        ],
+        "fingerprint": "0000000000000",
+        "formatValue": {},
+        "parentFolderId": "3"
+      },
+      {
+        "accountId": "0000000000",
+        "containerId": "00000000",
+        "variableId": 22,
+        "name": "Fundraise Up Supporter On Behalf Of",
+        "type": "v",
+        "parameter": [
+          {
+            "type": "INTEGER",
+            "key": "dataLayerVersion",
+            "value": "2"
+          },
+          {
+            "type": "BOOLEAN",
+            "key": "setDefaultValue",
+            "value": "false"
+          },
+          {
+            "type": "TEMPLATE",
+            "key": "name",
+            "value": "FundraiseUp.supporter.onBehalfOf"
+          }
+        ],
+        "fingerprint": "0000000000000",
+        "formatValue": {},
+        "parentFolderId": "3"
+      },
+      {
+        "accountId": "0000000000",
+        "containerId": "00000000",
+        "variableId": 23,
+        "name": "Fundraise Up Is Livemode",
+        "type": "v",
+        "parameter": [
+          {
+            "type": "INTEGER",
+            "key": "dataLayerVersion",
+            "value": "2"
+          },
+          {
+            "type": "BOOLEAN",
+            "key": "setDefaultValue",
+            "value": "false"
+          },
+          {
+            "type": "TEMPLATE",
+            "key": "name",
+            "value": "FundraiseUp.livemode"
+          }
+        ],
+        "fingerprint": "0000000000000",
+        "formatValue": {},
+        "parentFolderId": "3"
+      },
+      {
+        "accountId": "0000000000",
+        "containerId": "00000000",
+        "variableId": 24,
+        "name": "Fundraise Up Element ID",
+        "type": "v",
+        "parameter": [
+          {
+            "type": "INTEGER",
+            "key": "dataLayerVersion",
+            "value": "2"
+          },
+          {
+            "type": "BOOLEAN",
+            "key": "setDefaultValue",
+            "value": "false"
+          },
+          {
+            "type": "TEMPLATE",
+            "key": "name",
+            "value": "FundraiseUp.element.id"
+          }
+        ],
+        "fingerprint": "0000000000000",
+        "formatValue": {},
+        "parentFolderId": "3"
+      },
+      {
+        "accountId": "0000000000",
+        "containerId": "00000000",
+        "variableId": 25,
+        "name": "Fundraise Up Element Name",
+        "type": "v",
+        "parameter": [
+          {
+            "type": "INTEGER",
+            "key": "dataLayerVersion",
+            "value": "2"
+          },
+          {
+            "type": "BOOLEAN",
+            "key": "setDefaultValue",
+            "value": "false"
+          },
+          {
+            "type": "TEMPLATE",
+            "key": "name",
+            "value": "FundraiseUp.element.name"
+          }
+        ],
+        "fingerprint": "0000000000000",
+        "formatValue": {},
+        "parentFolderId": "3"
+      },
+      {
+        "accountId": "0000000000",
+        "containerId": "00000000",
+        "variableId": 26,
+        "name": "Fundraise Up Element Type",
+        "type": "v",
+        "parameter": [
+          {
+            "type": "INTEGER",
+            "key": "dataLayerVersion",
+            "value": "2"
+          },
+          {
+            "type": "BOOLEAN",
+            "key": "setDefaultValue",
+            "value": "false"
+          },
+          {
+            "type": "TEMPLATE",
+            "key": "name",
+            "value": "FundraiseUp.element.type"
+          }
+        ],
+        "fingerprint": "0000000000000",
+        "formatValue": {},
+        "parentFolderId": "3"
+      }
+    ],
+    "folder": [
+      {
+        "accountId": "0000000000",
+        "containerId": "00000000",
+        "folderId": "1",
+        "name": "Fundraise Up Triggers",
+        "fingerprint": "0000000000000"
+      },
+      {
+        "accountId": "0000000000",
+        "containerId": "00000000",
+        "folderId": "2",
+        "name": "Fundraise Up Tags",
+        "fingerprint": "0000000000000"
+      },
+      {
+        "accountId": "0000000000",
+        "containerId": "00000000",
+        "folderId": "3",
+        "name": "Fundraise Up Event Parameters",
+        "fingerprint": "0000000000000"
+      }
+    ],
+    "fingerprint": "0000000000000",
+    "tagManagerUrl": "https://tagmanager.google.com/#/versions/accounts/0000000000/containers/00000000/versions/1?apiLink=version",
+    "customTemplate": []
+  }
+}
